@@ -1,0 +1,93 @@
+.main-content {
+    width: auto;
+    margin: 33px 20% 0 20%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.khuyenmai_le {
+    font-size: 25px;
+    font-weight: bold;
+    /* padding: 0 6% 0 6%; */
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.row {
+    background-color: none;
+    position: relative;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+}
+
+.cols {
+    vertical-align: middle;
+    display: inline-block;
+    width: 23%;
+    height: auto;
+    margin: 10px 0 10px 1.25%;
+    align-content: center;
+    border: 1px solid rgb(154, 26, 26, 0.1);
+}
+
+.image {
+    cursor: pointer !important;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.ngay {
+    margin: 5px 0 0 0;
+    background-color: white;
+    color: #A9A9A9;
+    text-align: center;
+}
+
+.khuyenmai_phim {
+    font-size: 25px;
+    font-weight: bold;
+    /* padding: 0 6% 0 6%; */
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.rows {
+    background-color: none;
+    position: relative;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+}
+
+.col {
+    vertical-align: middle;
+    display: inline-block;
+    width: 23%;
+    height: auto;
+    margin: 10px 0 10px 1.25%;
+    align-content: center;
+    border: 1px solid rgb(154, 26, 26, 0.1);
+}
+
+.image_phim {
+    cursor: pointer !important;
+    margin: 0 0 0 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.chon_phim {
+    cursor: pointer !important;
+    margin: 0 0 0 33%;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        width: 95%;
+    }
+}

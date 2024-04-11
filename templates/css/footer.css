@@ -1,0 +1,40 @@
+/*css footer*/
+.qc_image a {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.qc_image a img {
+    width: auto;
+    padding-bottom: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 300px;
+}
+
+.footer .team {
+    margin-right: 110px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer .team a {
+    color: rgb(255, 255, 255);
+}
+
+.footer .map {
+    width: 450px;
+    height: 250px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

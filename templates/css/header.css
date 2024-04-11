@@ -1,0 +1,233 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/*css banner top*/
+.header {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .img_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .img_header img {
+    width: 280px;
+}
+
+.nav {
+    /* background-color: rgb(154, 26, 26); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul .li-nav {
+    padding-left: 50px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.li-nav a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.li-nav a:hover {
+    /* background-color: rgb(8, 16, 20); */
+    color: rgb(154, 26, 26);
+    /* text-decoration: underline; */
+}
+
+.sub_nav {
+    display: flex;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(154, 26, 26);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.search__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: #f4f2f2;
+    border: none;
+    color: #646464;
+    padding: 5px;
+    border-radius: 10px;
+    width: 200px;
+    transition: all ease-in-out .5s;
+    margin-right: -2.2rem;
+    margin-bottom: 5px
+}
+
+.search__input:hover,
+.search__input:focus {
+    box-shadow: 0 0 1em #00000013;
+}
+
+.search__input:focus {
+    outline: none;
+    background-color: #f0eeee;
+}
+
+.search__input::-webkit-input-placeholder {
+    font-weight: 100;
+    color: #1a1a1a;
+}
+
+.search__input:focus+.search__button {
+    background-color: #f0eeee;
+}
+
+.search__button {
+    border: none;
+    background-color: #f4f2f2;
+    margin-top: .1em;
+    border-radius: 10px;
+}
+
+.search__button:hover {
+    cursor: pointer;
+}
+
+.search__icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: #b4b4b4;
+}
+
+.sub_nav .login {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.sub_nav .login:hover {
+    color: rgb(255, 237, 208);
+    text-decoration: underline;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    margin-right: 30px;
+    margin-top: 9px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown .dropbtn {
+    text-align: center;
+    border-radius: 9px;
+    background: rgb(255, 255, 255);
+    color: rgb(128, 14, 14);
+    width: 140px;
+    padding: 2px;
+    white-space: nowrap;
+    /*ngăn chữ tràn xuống dòng*/
+    overflow: hidden;
+    /*ẩn nội dụng vượt quá khung chứa*/
+    text-overflow: ellipsis;
+    /*hiển thị (...) khi vượt quá khung chứa*/
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.duong_ngang {
+    width: 99%;
+    border: 2px solid rgb(154, 26, 26);
+}
+
+/*css tiện ích*/
+.tien_ich {
+    padding-right: 10px;
+    position: fixed;
+    top: 250px;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    /* Thêm hiệu ứng transition để làm mềm dịch chuyển */
+}
+
+.tien_ich_link {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(244, 244, 244);
+}
+
+.tien_ich_link a {
+    text-decoration: none;
+    color: rgb(8, 16, 20);
+    padding: 10px 20px;
+}
+
+.tien_ich_link a:hover {
+    background-color: rgb(154, 26, 26);
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Khi cuộn, di chuyển phần tử theo trục y */
+body.scrolling .tien_ich {
+    transform: translateY(100%);
+}

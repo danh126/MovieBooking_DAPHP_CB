@@ -1,0 +1,660 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 500px;
+    max-width: 100%;
+}
+
+/* ẩn thanh scrol */
+main::-webkit-scrollbar {
+    display: none;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    /* text-align: center; */
+    text-transform: uppercase;
+}
+
+.header h1 {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.user {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.user a:hover {
+    background-color: #7b2727;
+}
+
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 260px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-left: 60px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #7b2727;
+}
+
+.nav {
+    width: 220px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: #19373c;
+}
+
+.nav ul {
+    background-color: #19373c;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.nav ul li {
+    position: relative;
+    width: 100%;
+}
+
+.nav ul li:hover {
+    background-color: rgb(99, 32, 32);
+}
+
+.nav ul ul {
+    display: none;
+    background-color: #333;
+}
+
+.nav ul ul li {
+    width: 100%;
+}
+
+.nav ul ul li a {
+    padding: 10px 16px;
+}
+
+.nav ul li:hover>ul {
+    display: block;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 16px;
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer span {
+    margin-left: 10px;
+}
+
+/* đăng nhập admin*/
+.login {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.login-container h2 {
+    color: #333;
+    text-align: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #19373c;
+}
+
+/* css trang chủ*/
+.thong_ke {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.thong_ke .phim {
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: #19373c;
+    color: #f9f9f9;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+.thong_ke .ca_chieu {
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: #ff5024;
+    color: #f9f9f9;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+.thong_ke .shop_qua_tang {
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: #810303;
+    color: #f9f9f9;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+.thong_ke .khuyen_mai {
+    margin-left: 10px;
+    margin-right: 20px;
+    background-color: #dc9d4b;
+    color: #f9f9f9;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+.background {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.background img {
+    width: 350px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 1000px; */
+}
+
+.list .tieu_de {
+    background-color: #19373c;
+    color: #f9f9f9;
+}
+
+.list .tieu_de p {
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.list .tieu_de span {
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.list table tr,
+th,
+td {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.list .note {
+    color: #e31414;
+}
+
+.list .quay_lai a {
+    margin-top: 10px;
+    width: 100px;
+    padding: 10px 10px;
+    background-color: #19373c;
+    color: #f9f9f9;
+    text-align: center;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.list .quay_lai {
+    display: flex;
+    justify-content: right;
+}
+
+.list .quay_lai button {
+    margin-top: 10px;
+    width: 150px;
+    border: none;
+    padding: 10px 10px;
+    background-color: #ae1717;
+    color: #f9f9f9;
+    text-align: center;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.list .tac_vu {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.list .tac_vu a {
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #ae1717;
+    color: #f1f1f1;
+    margin-right: 10px;
+}
+
+/* css phân trang */
+.phan_trang {
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* căn giữa theo doc ngang cho flex*/
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.phan_trang a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(225, 219, 190);
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+.phan_trang a:hover {
+    background-color: rgb(154, 26, 26);
+    color: rgb(255, 255, 255);
+}
+
+.phan_trang span {
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 10px 10px;
+}
+
+/* css add phim */
+.edit {
+    display: flex;
+    justify-content: center;
+}
+
+.add_phim {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit_phim h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #19373c;
+}
+
+.add_phim p {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.add_phim form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.add_phim form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.add_phim form input {
+    height: 30px;
+    font-size: 16px;
+}
+
+.add_phim form span {
+    margin-top: 5px;
+    color: #ae1717;
+}
+
+.add_phim form button {
+    margin-top: 10px;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 10px;
+    background-color: #19373c;
+    color: #f9f9f9;
+}
+
+.add_phim .submit {
+    display: flex;
+    justify-content: center;
+}
+
+.add_phim form a {
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px 10px;
+    background-color: #19373c;
+    color: #f9f9f9;
+    text-align: center;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.add_phim .thong_bao {
+    color: #ae1717;
+}
+
+.add_phim select {
+    height: 30px;
+    font-size: 16px;
+}
+
+/* css edit phim */
+.edit_phim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit_phim form {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.edit_phim form label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.edit_phim form input {
+    height: 30px;
+    font-size: 16px;
+    margin: 5px 0 5px 0;
+}
+
+.edit_phim form span {
+    margin-top: 5px;
+    color: red;
+}
+
+.edit_phim form button {
+    margin-top: 10px;
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 10px;
+    background-color: #19373c;
+    color: #f9f9f9;
+}
+
+.edit_phim form a {
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px 10px;
+    background-color: #19373c;
+    color: #f9f9f9;
+    text-align: center;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.edit_phim .submit {
+    display: flex;
+    justify-content: center;
+}
+
+.list .thong_bao {
+    margin-top: 10px;
+    color: #ae1717;
+}
+
+/* css kiểm soát vé*/
+.mainKST {
+    /* --text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* --border: 1px solid black; */
+}
+
+.KSTtitle {
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: black;
+}
+
+.navs {
+    vertical-align: middle;
+    margin: 20px 10% 0 10%;
+    font-size: 18px;
+}
+
+.SearchId {
+    border-radius: 10px;
+    width: 20%;
+    height: 25px;
+    padding: 0 0 0 10px;
+}
+
+.link {
+    display: flexbox;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 3px 8px;
+    float: inline-end;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.link:hover {
+    background-color: #19373c;
+
+}
+
+.KST {
+    height: 250px;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin: 10px 10% 5% 10%;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.KST::-webkit-scrollbar {
+    display: none;
+}
+
+.smallboxVE {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.table-biggie {
+    position: relative;
+    /* --border: 1px solid black;
+    --border-radius: 10px; */
+    width: 100%;
+    text-align: left;
+    box-shadow: none;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.headRows {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.head-row {
+    margin: 0;
+    padding: 0;
+    /* --border: 1px solid black; */
+    color: black;
+}
+
+.infos-rows {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.statisicBox {
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 5px 10%;
+    width: 80%;
+    height: auto;
+}
+
+.table-smallies {
+    /* border: 3px solid black;
+    border-radius: 20px; */
+    width: 98%;
+    height: auto;
+    margin: 5px 1%;
+    text-align: center;
+    box-shadow: none;
+}
+
+.numsVephim {
+    /* border-radius: 30px 0 0 0; */
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.numsTongtien {
+    /* border-radius: 0 30px 0 0; */
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.statisicContent {
+    height: auto;
+}

@@ -1,0 +1,151 @@
+.chitietquatang {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+    /* border: 1px solid #FFF8DC; */
+    /* text-align: center; */
+    margin: auto;
+    padding: 2px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_noidung_ctiet {
+    border-right: 2px solid rgb(225, 219, 190);
+    width: 600px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.hienthisp {
+    width: 600px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.hienthisp img {
+    width: 500px;
+    margin-top: 20px;
+}
+
+.huongdansd {
+    padding: 0px 10px 30px 0px;
+    font-size: 18px;
+}
+
+.huongdansdchitiet {
+    width: 500px;
+    text-align: left;
+    border-top: 1px solid #FFF8DC;
+    margin: auto;
+    font-size: 18px;
+}
+
+.ctspquatang {
+    width: 395px;
+    height: auto;
+    display: inline-block;
+    /* font-size: 16px; */
+}
+
+.tensp {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.ctspquatang .giaban {
+    border-top: 1px solid #FFF8DC;
+    padding-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.trangchitiet .ctspquatang .btn {
+    padding: 10px 20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+}
+
+.trangchitiet .ctspquatang .btn:hover {
+    background-color: red;
+    color: white;
+}
+
+.soluong {
+    width: 370px;
+    height: 40px;
+    margin: auto;
+    background-color: rgb(225, 219, 190);
+    padding: 0px 5px 0px 7px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.soluong input {
+    width: 120px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.Muangay {
+    text-align: right;
+}
+
+.Muangay input {
+    width: 150px;
+    font-size: 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-right: 30px;
+    border: none;
+}
+
+.Muangay input:hover {
+    background-color: rgb(199, 39, 39);
+    color: rgb(255, 255, 255);
+}
+
+.Muangay a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.Muangay a:hover {
+    background-color: rgb(199, 39, 39);
+    color: rgb(255, 255, 255);
+}
+
+.danhsachquatang {
+    width: 366px;
+    border: 1px solid #000000;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.danhsachquatang a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.danhsachquatang a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.danhsachquatang:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}

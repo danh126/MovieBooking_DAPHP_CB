@@ -1,0 +1,165 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /*align-items: center; */
+    /* height: 100vh; */
+    /* flex-direction: column; */
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(225, 219, 190);
+}
+
+.profile-picture {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.profile-picture img {
+    width: 120px;
+    border-radius: 50%;
+    flex-direction: column;
+}
+
+.profile-info {
+    margin-top: 20px;
+    /* text-align: center; */
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.profile-info a {
+    text-decoration: none;
+    color: blue;
+}
+
+.thong_tin_dat_ve {
+    margin-top: 20px;
+    padding-left: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 420px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.thong_tin_dat_ve .ttdv_tieu_de {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(154, 26, 26);
+    text-align: center;
+}
+
+.thong_tin_dat_ve span {
+    font-weight: 400;
+}
+
+.thong_tin_dat_ve hr {
+    border: 1px solid rgb(154, 26, 26);
+}
+
+/* css cap nhat thong tin */
+.cap_nhat_tt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cap_nhat_tt .tac_vu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cap_nhat_tt .tac_vu button {
+    width: 150px;
+    padding: 14px 14px;
+    background-color: rgb(154, 26, 26);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none;
+    margin-right: 10px;
+}
+
+.cap_nhat_tt .tac_vu a {
+    width: 150px;
+    padding: 14px 14px;
+    background-color: rgb(154, 26, 26);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form .rol-6 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form .rol-6 label {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form .rol-6 input {
+    width: 400px;
+    height: 30px;
+}
+
+/* css vé quà tặng*/
+
+.vequatang {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-direction: column;
+    margin-right: 350px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.vequatang p {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(154, 26, 26);
+    text-align: center;
+}
+
+.vequatang table {
+    width: 600px;
+}
+
+.vequatang th,
+td {
+    border: 1px solid rgb(11, 10, 10);
+}

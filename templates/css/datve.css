@@ -1,0 +1,610 @@
+.booking {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.link a {
+    max-width: 100%;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    background-color: rgb(15, 10, 3);
+    color: rgb(250, 250, 250);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link a:hover {
+    background-color: rgb(154, 26, 26);
+}
+
+.day {
+    background-color: rgb(154, 26, 26);
+    color: rgb(250, 250, 250);
+    padding: 10px 22px;
+}
+
+.input_day {
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(225, 219, 190);
+    color: rgb(0, 0, 0);
+    border-style: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input_day:hover {
+    background-color: rgb(154, 26, 26);
+    color: rgb(250, 250, 250);
+}
+
+.list_movie {
+    float: right;
+    width: 400px;
+}
+
+.list_movie p {
+    padding: 10px 60px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+}
+
+.list_srcoll {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 270px;
+    max-width: 600px;
+}
+
+.list_movie li {
+    list-style: none;
+    background-color: rgb(225, 219, 190);
+    font-size: 16px;
+    padding: 5px 5px;
+    color: rgb(110, 26, 26);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.phong {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.phong label {
+    background-color: rgb(154, 26, 26);
+    color: rgb(255, 255, 255);
+    padding: 10px 5px;
+    text-align: center;
+}
+
+.phong span {
+    margin-top: 10px;
+    color: rgb(243, 243, 243);
+    padding: 10px 10px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.phong span:hover {
+    background-color: rgb(225, 219, 190);
+    color: rgb(3, 2, 2);
+}
+
+.phong span:active {
+    background-color: rgb(154, 26, 26);
+}
+
+/* css chọn ghế */
+
+.chon_ghe {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chon_ghe .man_hinh {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.img_mh {
+    display: flex;
+    justify-content: center;
+}
+
+.img_mh img {
+    width: 40%;
+}
+
+.checkbox {
+    padding-top: 30px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox .cot1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 140px;
+}
+
+.checkbox .cot1 label {
+    background-color: rgb(94, 33, 135);
+    color: rgb(250, 250, 250);
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.checkbox .cot2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 140px;
+}
+
+.checkbox .cot2 label {
+    background-color: rgb(94, 33, 135);
+    color: rgb(250, 250, 250);
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.checkbox .cot3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 250px;
+}
+
+.checkbox .cot3 label {
+    background-color: rgb(186, 0, 9);
+    color: rgb(250, 250, 250);
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.checkbox .cot4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 150px;
+}
+
+.checkbox .cot4 label {
+    background-color: rgb(94, 33, 135);
+    color: rgb(250, 250, 250);
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.checkbox .cot5 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 30px;
+    margin-top: 40px;
+    max-width: 150px;
+}
+
+.checkbox .cot5 label {
+    background-color: rgb(94, 33, 135);
+    color: rgb(250, 250, 250);
+    padding: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.note {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.note span {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.note .status {
+    margin-top: 20px;
+    background-color: #c9c9c9;
+    margin-right: 10px;
+}
+
+.note .fa-solid {
+    color: rgb(0, 121, 234);
+}
+
+.note .ghe_thuong {
+    background-color: rgb(94, 33, 135);
+    color: rgb(223, 223, 223);
+}
+
+.note .ghe_vip {
+    background-color: rgb(186, 0, 9);
+    color: rgb(223, 223, 223);
+}
+
+.chon_ghe .submit {
+    display: flex;
+    justify-content: center;
+}
+
+.chon_ghe .submit button {
+    width: 150px;
+    padding: 14px 14px;
+    background-color: rgb(154, 26, 26);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.chon_ghe .submit button:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.error {
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.dat_ve_thanh_cong {
+    padding: 10px 10px;
+    background-color: rgb(225, 219, 190);
+    color: rgb(154, 26, 26);
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* css thời gian */
+.time {
+    display: flex;
+    flex-direction: row;
+}
+
+.time_movie p {
+    font-size: 18px;
+    color: black;
+    background-color: rgb(225, 219, 190);
+    padding: 10px 10px;
+}
+
+.time_movie .list {
+    margin-left: 10px;
+    width: 120px;
+    height: 90px;
+    padding: 5px 5px;
+    background-color: rgb(223, 223, 223);
+    color: rgb(3, 37, 38);
+    list-style-type: none;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+}
+
+/* .time_movie .list:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(250, 250, 250);
+} */
+
+.btn {
+    margin-top: 20px;
+    padding: 14px 14px;
+    width: 20%;
+    background-color: rgb(154, 26, 26);
+    color: aliceblue;
+    font-size: 16px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.reset {
+    text-decoration: none;
+    padding: 14px 50px;
+    width: 20%;
+    background-color: rgb(154, 26, 26);
+    color: aliceblue;
+    font-size: 16px;
+    border: none;
+    margin-left: 10px
+}
+
+.reset:hover {
+    background-color: black;
+}
+
+/* css lịch chiếu phim*/
+.danh_sach_lich {
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.lich {
+    display: flex;
+    flex-direction: row;
+}
+
+.lich .lich_p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lich .lich_sp {
+    margin-left: 10px;
+    margin-top: 32px;
+    font-size: 16px;
+}
+
+.thoi_gian_hien_hanh form {
+    display: flex;
+}
+
+.lich_chieu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lich_chieu .ten_phim {
+    background-color: rgb(225, 219, 190);
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.lich_chieu .ten_phim a {
+    padding: 5px;
+}
+
+.lich_chieu a {
+    text-decoration: none;
+    background-color: rgb(246, 246, 246);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.lich_chieu span {
+    font-weight: 500;
+}
+
+.thoi_gian_view {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.thoi_gian_view .thoi_gian {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+    box-shadow: -1px 1px 10px 1px #c9c9c9;
+}
+
+.thoi_gian_view .thoi_gian:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(211, 227, 227);
+}
+
+/* css button chọn ca chiếu*/
+.chon_ca_chieu button {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(154, 26, 26);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.chon_ca_chieu button:hover {
+    background-color: rgb(3, 2, 2);
+}
+
+.list_chon {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    /* Safari */
+    flex-wrap: wrap;
+    background-color: rgb(225, 219, 190);
+}
+
+.list_chon p {
+    margin-left: 10px;
+}
+
+.list_chon .chon_lai {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+
+.list_chon .chon_lai input {
+    padding: 10px 10px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(0, 0, 0);
+    color: rgb(243, 243, 243);
+}
+
+.list_chon input {
+    margin-top: 10px;
+    width: 125px;
+    height: 20px;
+    border: 2px solid rgb(138, 53, 0);
+    text-align: center;
+}
+
+.list_ca_chieu {
+    margin-left: 10px;
+}
+
+.thong_bao {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.thong_bao_loi {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 2px; */
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(186, 0, 9);
+}
+
+/* css xử lý đặt vé*/
+.xu_ly_dat_ve {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.thong_tin_KH {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.thong_tin_KH p {
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.thong_tin_KH label {
+    font-weight: 200;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.thong_tin_KH input {
+    padding: 5px;
+    border-radius: 5px;
+    color: rgb(15, 10, 3);
+    font-size: 18px;
+}
+
+.thong_tin_ve {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.thong_tin_ve p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(186, 0, 9);
+}
+
+.thong_tin_ve input {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: bisque;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 250px;
+    height: 25px;
+}
+
+.dat_ve {
+    display: flex;
+    justify-content: center;
+}
+
+.dat_ve button {
+    width: 150px;
+    padding: 14px 14px;
+    background-color: rgb(154, 26, 26);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.close {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.so_luong_ve {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.tong_tien {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.tong_tien .gia {
+    color: rgb(186, 0, 9);
+}
+
+/* css thanh toán */
+.thanh_toan {
+    display: flex;
+    justify-content: center;
+    color: rgb(186, 0, 9);
+    font-size: 20px;
+}

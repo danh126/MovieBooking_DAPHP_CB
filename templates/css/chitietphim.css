@@ -1,0 +1,348 @@
+.containor {
+    --position: relative;
+    margin: 0 20% 0 20%;
+    padding: 0;
+    height: auto;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+
+.table {
+    display: flex;
+}
+
+.img {
+    position: relative;
+    max-height: 300px;
+    max-width: 200px;
+    align-items: center;
+    align-content: center;
+}
+
+.image {
+    margin: 0 0 0 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.datve {
+    position: relative;
+    padding: 5px 10px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0 0 0;
+    transition: 1s;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.datve a {
+    color: white;
+    text-decoration: none;
+}
+
+.infos {
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: block;
+}
+
+.infos .filmname {
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0 20px;
+    overflow-wrap: break-word;
+    font-size: 24px;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+.infos .daodien {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0 20px;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.infos .dienvien {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0 20px;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.infos .ngaykhoichieu {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0 20px;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.infos .basicinfos {
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 0 20px;
+    font-size: 20px;
+    word-break: break-word;
+}
+
+.tomtat {
+    position: relative;
+    padding: 40px 0 0 0;
+}
+
+.tomtat p {
+    position: relative;
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.tomtat .bang {
+    position: relative;
+    font-size: 19px;
+    height: auto;
+    width: auto;
+    margin: -20px 0 0 0;
+    text-align: justify;
+    padding: 5px 10px;
+}
+
+/* .comment {
+    border-top: 1px solid black;
+    height: auto;
+    width: 100%;
+    margin: 10% 0 0 0;
+}
+
+.comment .title {
+    position: relative;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.comment .cmt {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.comment .cmt .text {
+    padding: 5px 0 0 5px;
+    height: auto;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.comment .cmt .binhluan {
+    position: relative;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    margin: 5px 0 0 0;
+    transition: 1s;
+}
+
+.comment .cmt .binhluan a {
+    text-decoration: none;
+    color: white;
+} */
+.comment {
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.comment .title {
+    position: relative;
+    padding: 10px 0 10px 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.comment .cmt {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.comment .cmt .text {
+    min-width: 100px;
+    padding: 5px 0 0 5px;
+    height: 40px;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.comment .cmt .binhluan {
+    position: relative;
+    padding: 5px 10px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    margin: 5px 0 0 0;
+    transition: 1s;
+}
+
+.comment .cmt .binhluan:hover {
+    background-color: rgb(141, 10, 10);
+    color: rgb(255, 255, 255);
+}
+
+.cmt-box {
+    position: relative;
+    margin: 5px 0;
+    padding: 5px 10px;
+    /* border-bottom: 1px solid rgb(121, 33, 33); */
+    font-size: 18px;
+    word-break: break-word;
+    background-color: rgb(217, 217, 217);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cmt-box .user_name {
+    color: rgb(154, 35, 31);
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.cmt-box .noi_dung_cmt {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.userBtnCmt {
+    top: 0;
+    right: 0;
+    font-size: 16px;
+}
+
+.btnEdit {
+    border: none;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.btnEdit:hover {
+    background-color: #fff;
+    color: black;
+    opacity: 0.8;
+}
+
+.btnreplyCmt {
+    border: none;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.btnreplyCmt:hover {
+    background-color: #fff;
+    color: black;
+    opacity: 0.8;
+}
+
+.btnDelete {
+    border: none;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+
+.btnDelete:hover {
+    background-color: #fff;
+    color: black;
+    opacity: 0.8;
+}
+
+/* css slide*/
+.slideshow-container {
+    display: flex;
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides video {
+    width: 800px;
+    height: 400px;
+}
+
+.mySlides img {
+    width: 800px;
+    height: 400px;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 55%;
+    width: auto;
+    padding: 16px;
+    margin-top: 22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: 22px;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(154, 26, 26);
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    margin-top: 10px;
+    left: 20%;
+}
+
+.next {
+    margin-top: 10px;
+    right: 20%;
+}
